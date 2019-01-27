@@ -19,8 +19,12 @@ class Owner
     
     def self.count
       num = @@all.count
-      @@all.clear
       num
+    end
+    
+    def self.reset_all
+      @@all.clear
+      @@all
     end
     
     
