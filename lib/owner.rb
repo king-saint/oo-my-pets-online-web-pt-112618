@@ -16,8 +16,6 @@ class Owner
       @@all
     end
     
-
-    
     def self.count
       num = @@all.count
       num
