@@ -16,12 +16,10 @@ class Owner
       @@all
     end
     
-    def self.count
-      num = @@all.count
-      num
-    end
+
     
     def self.count
+      num = @@all.count
       @@all.clear
       @@all
     end
