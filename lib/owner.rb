@@ -20,6 +20,7 @@ class Owner
     
     def self.count
       num = @@all.count
+      num
       @@all.clear
       @@all
     end
